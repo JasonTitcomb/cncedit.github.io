@@ -1,0 +1,290 @@
+/* Common tags                 */
+/*-----------------------------*/		
+
+body
+{
+	font-family: Verdana;
+	font-size: 12pt;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background-color: #fffff0;
+}
+
+		
+	
+p
+{
+	line-height: 1.4em;
+}
+
+.new
+{
+    color: #cc0033;
+    font-family: Georgia;
+}
+
+.title
+{
+	font-size: large;
+	color: #00477a;
+}
+
+hr {
+	border: 0;
+	border-top: 2px solid #41519A;
+	height: 2px;
+}
+
+/* Headings                    */
+/*-----------------------------*/
+h1
+{
+	font-size: large;
+}
+
+h2
+{
+	font-size: medium;
+	margin-top: 30;
+	color: #6B7EBF;
+	margin-bottom: -15;
+}
+	
+h3
+{
+	font-size: small;
+	margin-bottom: -15;
+	color: #6B7EBF;
+	padding-left: 15;
+}
+
+h1, h2, h3, h4
+{
+	margin: 0;
+	font-family: Verdana;
+}
+
+
+/* Tables                      */
+/*-----------------------------*/
+.printabletable
+{
+	border-right: black thin solid;
+	border-top: black thin solid;
+	border-left: black thin solid;
+	border-bottom: black thin solid;
+	width: 7in;
+}
+.reqfield
+{
+	background-color: #99cccc;
+    width: 220px;
+}
+.readonly
+{
+	background-color: #669999;
+}
+/* page layout*/
+#container
+{
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+}
+
+#title
+{
+	text-align: left;
+	color: #004a6d;
+	font-size: x-large;
+	height: 85px;
+}
+
+#title div
+{
+	height: 82px;
+	text-align: center;
+	top: 4px;
+}
+#title1
+{
+	width: 165px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#title2
+{
+	width: 565px;
+	position: absolute;
+	left: 174px;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+#title3
+{
+	width: 281px; 
+position: absolute; left: 770px; 
+text-align: right;
+}
+	
+
+#headerbar
+{
+	background-image: url(../Images/bar.png);
+	height: 18px;
+}
+
+#sidebar
+{
+	background-color: #edefd0;
+	height: 643px;
+	width: 165px;
+	border-right: #336699 1px solid;
+	overflow: hidden;
+	text-align: center;
+}
+
+#sidebarTransition
+{
+	width: 166px;
+}
+
+#content
+{
+	text-align: left;
+	left: 100px;
+	width: 80%;
+	position: absolute;
+	top: 100px;
+	overflow: auto;
+}
+
+/* CSS list */
+	.csslist
+{
+	color: #004a6d;
+}
+
+	.csslist li
+{
+	list-style-image: url(../Images/check.gif);
+}
+
+.listexcludedfeatures li
+{
+	list-style-image: url(../Images/X.gif);
+}
+
+/* CSS Menu */
+	.cssmnu
+{
+	border-bottom-width: 0;
+	text-align: left;
+}
+
+	.cssmnu ul
+{
+	font: normal 90% 'Trebuchet MS' , 'Lucida Grande' , Arial, sans-serif;
+}
+
+	.cssmnu li
+{
+	display: block;
+	border-bottom: #000000 1px solid;
+	list-style-image: url(../Images/bullet2.gif);
+}
+
+	.cssmnu li a
+{
+	color: black;
+	display: block;
+	width: auto;
+}
+
+	.cssmnu li:hover, #selmenuitem
+{
+	background-color: #bfc8c5;
+	color: white;
+	list-style-image: url(../Images/bullet1.gif);
+}
+
+	.cssmnu a:hover
+{
+	color: white;
+}
+	a.cssmnu:hover
+{
+	color: white;
+}
+
+.topic
+{
+	font-weight: bold;
+	color: #450000;
+}
+
+.adminTables
+{
+    padding: 3px;
+    border: 1px dotted #5D7B9D;
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+.adminTablesTR1
+{
+    padding: 3px;
+    border: 1px dotted #5D7B9D;
+    margin: 0px;
+}
+.adminTablesTR2
+{
+    padding: 3px;
+    border: 1px dotted #5D7B9D;
+    margin: 0px;
+    width: 575px;
+}
+
+.adminTablesTR3
+{
+    padding: 3px;
+    border: 1px dotted #5D7B9D;
+    margin: 0px;
+    width: 400px;
+}
+	.menutitle
+{
+	color: white;
+	border-bottom: 1px solid black;
+	background-color: #336699;
+	font: bold 90% 'Trebuchet MS' , 'Lucida Grande' , Arial, sans-serif;
+}
+
+.cssmnu a:link
+{
+    color: #004b62;
+    text-decoration: none;
+}
+.cssmnu a:visited
+{
+    color: #004b62;
+    text-decoration: none;
+}
+.cssmnu a:active
+{
+    color: #004b62;
+    cursor: hand;
+    text-decoration: none;
+}
+.cssmnu a:hover
+{
+    color: #663300;
+    cursor: hand;
+    text-decoration: none;
+}
+
