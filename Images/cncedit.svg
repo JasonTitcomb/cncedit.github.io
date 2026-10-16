@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="112" viewBox="0 0 360 112" role="img" aria-labelledby="title desc">
+  <title id="title">CNC Edit</title>
+  <desc id="desc">Modern CNC Edit wordmark in navy and teal with geometric lettering and a transparent background.</desc>
+  <g fill="none" stroke="#1E4360" stroke-width="9" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M57 30V21Q57 15 51 15H23Q17 15 17 21V91Q17 97 23 97H51Q57 97 57 91V82"/>
+    <path d="M83 97V15L125 97V15"/>
+    <path d="M193 30V21Q193 15 187 15H159Q153 15 153 21V91Q153 97 159 97H187Q193 97 193 91V82"/>
+  </g>
+  <g fill="none" stroke="#087F8C" stroke-width="5" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M244 35H220V77H244M220 55H240"/>
+    <path d="M278 33V77M278 58Q278 48 267 48Q256 48 256 59V66Q256 77 267 77Q278 77 278 67"/>
+    <path d="M294 49V77M314 40V68Q314 77 322 77H327M305 49H325"/>
+  </g>
+  <rect x="291" y="34" width="6" height="6" rx="1" fill="#087F8C"/>
+</svg>
